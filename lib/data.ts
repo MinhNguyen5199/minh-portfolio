@@ -94,8 +94,8 @@ export const projectsData = [
     title: "Personal Portfolio Website",
     description:
     "I have crafted a simple yet visually appealing website that highlights my background, skills, and projects. This hands-on experience represents the foundational steps in my coding journey, enabling me to demonstrate my capabilities and share the progression of my skills and accomplishments.",
-    demoLink: "https://www.google.com/",
-    githubCode: "https://github.com/MinhNguyen5199",
+    demoLink: "https://minhnguyen-portfolio.vercel.app/",
+    githubCode: "https://github.com/MinhNguyen5199/minhnguyen-portfolio",
     tags: ["React", "Next.js", "Framer Motion", "Tailwind", "TypeScript", "Email"],
     imageUrl: portfolio,
   },
