@@ -19,6 +19,6 @@ export function useSectionInView(
   }, [controls, inView, setActiveSection, timeOfLastClick, sectionName]);
 
   return {
-    ref, controls
+    ref, controls, inView
   };
 }

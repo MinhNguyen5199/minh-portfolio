@@ -28,7 +28,10 @@ export default function Skills() {
               viewport={{once: true}}
               custom={index}
               variants={motionLoading}className="text-center inline-block p-3">
-              <Image src={item.icon} width="60" height="100" alt={item.name} className="bg-white rounded-lg m-auto" 
+              <Image src={item.icon} height={0}
+                width={0}
+                style={{width:'60px', height: "auto" }} alt={item.name} 
+              className="bg-white rounded-lg m-auto " 
               />
             <label className="text-white text-lg font-mono "
             >{item.name}</label>

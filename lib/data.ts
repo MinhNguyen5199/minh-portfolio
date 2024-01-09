@@ -4,7 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "../public/corpcomment.png";
 import rmtdevImg from "../public/rmtdev.png";
-import wordanalyticsImg from "../public/wordanalytics.png";
+import wordanalyticsImg from "../public/rmtdev.png";
+import portfolio from "../public/portfolio.png";
+import ecommerce from "../public/ecommerce.png";
 
 export const info =[
   {
@@ -62,57 +64,57 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated SAIT",
+    location: "Calgary, Alberta",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After college, I focus on personal and professional development, enhancing my coding skills through self-directed learning and creating some of my personal projects.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full-stack Developer",
+    location: "Self project",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Personal ecommerce website. I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and any database. I'm open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Blog website",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Currently freelancing and open to exciting full-time opportunities. Explore my coding journey and tech insights here!",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Personal Portfolio Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    "I have crafted a simple yet visually appealing website that highlights my background, skills, and projects. This hands-on experience represents the foundational steps in my coding journey, enabling me to demonstrate my capabilities and share the progression of my skills and accomplishments.",
     demoLink: "https://www.google.com/",
     githubCode: "https://github.com/MinhNguyen5199",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    tags: ["React", "Next.js", "Framer Motion", "Tailwind", "TypeScript", "Email"],
+    imageUrl: portfolio,
   },
   {
-    title: "rmtDev",
+    title: "E-commerce webiste",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    demoLink: "https://www.google.com/",
-    githubCode: "https://github.com/MinhNguyen5199",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    "As the sole full-stack developer, I handle all features such as CRUD operations, pagination, sorting, filtering, search, authentication, authorization, payment integration, advanced image uploading, and various other sophisticated features.",
+    demoLink: "http://20.241.166.200/",
+    githubCode: "https://github.com/MinhNguyen5199/ecommerce",
+    tags: ["TypeScript", "Next.js", "Tailwind", "Prisma", "PostgreSQL", "GraphQL", "Apollo", "Docker", "Kubernetes", "Pothos", "Clodinary", "Stripe"],
+    imageUrl: ecommerce,
   },
   {
-    title: "Word Analytics",
+    title: "Blog website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    demoLink: "https://www.google.com/",
-    githubCode: "https://github.com/MinhNguyen5199",
-      tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Discover my coding journey in this concise blog—a showcase of achievements, methodologies, and digital explorations. Each post offers a snapshot of evolving proficiency and a commitment to continuous learning in the dynamic digital landscape.",
+    demoLink: "https://minh-blog.vercel.app/",
+    githubCode: "https://github.com/MinhNguyen5199/minh-blog",
+      tags: ["React", "Next.js", "TypeScript"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -224,8 +226,8 @@ export const skillsData = [
         icon: require('./skills/vercel.svg'),
       },
       {
-        name: 'AWS',
-        icon: require('./skills/aws.svg'),
+        name: 'Pothos',
+        icon: require('./skills/pothos.svg'),
       },
     ],
   },
