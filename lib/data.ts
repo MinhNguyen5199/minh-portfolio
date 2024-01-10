@@ -103,7 +103,7 @@ export const projectsData = [
     title: "E-commerce webiste",
     description:
     "As the sole full-stack developer, I handle all features such as CRUD operations, pagination, sorting, filtering, search, authentication, authorization, payment integration, advanced image uploading, and various other sophisticated features.",
-    demoLink: "http://20.241.166.200/",
+    demoLink: "http://35.203.74.76/",
     githubCode: "https://github.com/MinhNguyen5199/ecommerce",
     tags: ["TypeScript", "Next.js", "Tailwind", "Prisma", "PostgreSQL", "GraphQL", "Apollo", "Docker", "Kubernetes", "Pothos", "Clodinary", "Stripe"],
     imageUrl: ecommerce,
