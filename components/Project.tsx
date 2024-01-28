@@ -34,7 +34,7 @@ export default function Project({
             className="aspect-square max-xl:ml-auto max-xl:mr-auto rounded-2xl w-[25rem]"
           />
         </div>
-        <div className=" duration-300 inset-x-0 absolute top-0 text-xl group-hover:bg-gradient-to-r group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 group-hover:p-2 text-black font-semibold max-[639px]:w-[25rem] max-[361px]:w-[24rem] w-[25rem] lg:left-[30%] xl:left-0 xl:w-full z-50 max-sm:h-[130%] h-[110%] xl:h-[100%] group-hover:cursor-pointer rounded-2xl max-lg:top-1/2 max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:-translate-y-1/2 ">
+        <div className=" duration-300 inset-x-0 absolute top-0 text-xl group-hover:bg-gradient-to-r group-hover:from-pink-500 group-hover:via-red-500 group-hover:to-yellow-500 group-hover:p-2 text-black font-semibold max-[639px]:w-[25rem] max-[361px]:w-[20rem] w-[25rem] lg:left-[30%] xl:left-0 xl:w-full z-50 max-sm:h-[170%] h-[110%] xl:h-[100%] group-hover:cursor-pointer rounded-2xl max-lg:top-1/2 max-lg:left-1/2 max-lg:-translate-x-1/2 max-lg:-translate-y-1/2 ">
           <div className="h-full w-full bg-gray-200 scale-0 group-hover:scale-100 group-hover:transition-transform group-hover:ease-in-out group-hover:duration-1000 opacity-0 group-hover:opacity-100 rounded-2xl pl-2">
             <h1 className="text-center uppercase bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-transparent py-2 decoration-8">
               {title}
