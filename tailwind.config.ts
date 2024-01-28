@@ -16,12 +16,16 @@ const config: Config = {
         'hero-pattern': "url('/hero.jpg')",
         'avatar': "url('/avatar.jpeg')",
       },
+      screens: {
+        '768x1024': '400px',
+      },
       fontFamily: {
         'levi': ['LeviReBrushed', 'sans-serif'],
         'Pacifico-Regular': ['Pacifico-Regular', 'sans-serif'],
       },
     },
   },
+  variants: {},
   plugins: [],
 }
 export default config
