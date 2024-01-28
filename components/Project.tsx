@@ -21,7 +21,8 @@ export default function Project({
 
   return (
     <motion.div ref={ref}>
-      <div className="relative group m-3 hidden 768x1024:block">
+      
+      <div className="relative group mb-10 hidden 768x1024:block">
         <div>
           <Image
             src={imageUrl}
