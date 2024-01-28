@@ -7,6 +7,7 @@ import rmtdevImg from "../public/rmtdev.png";
 import wordanalyticsImg from "../public/rmtdev.png";
 import portfolio from "../public/portfolio.png";
 import ecommerce from "../public/ecommerce.png";
+import hotel from "../public/hotel.png";
 
 export const info =[
   {
@@ -107,6 +108,15 @@ export const projectsData = [
     githubCode: "https://github.com/MinhNguyen5199/ecommerce",
     tags: ["TypeScript", "Next.js", "Tailwind", "Prisma", "PostgreSQL", "GraphQL", "Apollo", "Docker", "Kubernetes", "Pothos", "Clodinary", "Stripe"],
     imageUrl: ecommerce,
+  },
+  {
+    title: "Hotel Booking Website",
+    description:
+      "I've meticulously developed a comprehensive hotel booking website that fulfills every requirement of a real-world application. Offering a seamless blend of sleek design and robust functionality, I am committed to delivering excellence in every aspect of the user experience.",
+    demoLink: "https://bookingapp-y5aj.onrender.com/",
+    githubCode: "https://github.com/MinhNguyen5199/BookingApp",
+      tags: ["MongoDB", "Node.js", "Express.js", "React", "Stripe", "Cloudinary","TypeScript"],
+    imageUrl: hotel,
   },
   {
     title: "Blog website",
