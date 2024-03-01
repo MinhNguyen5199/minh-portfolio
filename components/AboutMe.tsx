@@ -60,7 +60,7 @@ export default function AboutMe() {
               ABOUT ME
             </h1>
             <p className="pb-[1rem] text-white text-[16px] font-[400px] lg:mr-[140px] leading-7 font-mono">
-            Hi there! I&apos;m Minh Nguyen, an aspiring web developer with a passion for creating dynamic web projects. I bring enthusiasm and dedication to all stages of the development cycle. Proficient in essential technologies like HTML5, CSS3, JavaScript, React, Nextjs, MongoDB and PostgreSQL, and eager to learn and grow. I&apos;m excited about gaining experience and building a strong foundation in web development.
+            Hi there! I&apos;m Minh Nguyen, an aspiring web developer with a passion for creating dynamic web projects. I bring enthusiasm and dedication to all stages of the development cycle. Proficient in essential technologies like HTML5, CSS3, JavaScript, TypeScript, MERN, Angular, Java, .Net 8, GraphQL, Docker, kubernetes,  etc..., and eager to learn and grow. I&apos;m excited about gaining experience and building a strong foundation in web development.
             </p>
             {info.map((item) => (
               <p
