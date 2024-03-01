@@ -17,7 +17,7 @@ export default function Home() {
       <AboutMe/>
       <Projects/>
       <Skills/>
-      <Experience/>
+      {/* <Experience/> */}
       <Contact/>
       <Footer/>
       

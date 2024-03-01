@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "../public/corpcomment.png";
 import rmtdevImg from "../public/rmtdev.png";
+import lms from "../public/lms.png";
+import sportrent from "../public/sportrent.png";
 import wordanalyticsImg from "../public/rmtdev.png";
 import portfolio from "../public/portfolio.png";
 import ecommerce from "../public/ecommerce.png";
@@ -53,10 +55,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -101,7 +103,7 @@ export const projectsData = [
     imageUrl: portfolio,
   },
   {
-    title: "E-commerce webiste",
+    title: "E-commerce with Next.js",
     description:
     "As the sole full-stack developer, I handle all features such as CRUD operations, pagination, sorting, filtering, search, authentication, authorization, payment integration, advanced image uploading, and various other sophisticated features.",
     demoLink: "http://35.203.74.76/",
@@ -110,7 +112,7 @@ export const projectsData = [
     imageUrl: ecommerce,
   },
   {
-    title: "Hotel Booking Website",
+    title: "Hotel Booking MERN Stack",
     description:
       "I've meticulously developed a comprehensive hotel booking website that fulfills every requirement of a real-world application. Offering a seamless blend of sleek design and robust functionality, I am committed to delivering excellence in every aspect of the user experience.",
     demoLink: "https://bookingapp-y5aj.onrender.com/",
@@ -126,6 +128,24 @@ export const projectsData = [
     githubCode: "https://github.com/MinhNguyen5199/minh-blog",
       tags: ["React", "Next.js", "TypeScript"],
     imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "E-commerce with Java",
+    description:
+      "A React and Java Spring Boot e-commerce platform simplifies rental reservations for users and enhances management for admins. It offers secure registration, detailed listings, and efficient inventory management, ensuring a seamless experience for both customers and employees.",
+    demoLink: "https://sports-rent.vercel.app/",
+    githubCode: "https://github.com/MinhNguyen5199/sportrent-fe",
+      tags: ["React", "Spring Boot", "JPA", "Hibernate", "MySQL", "Spring Security", "Maven", "Heroku", "Docker"],
+    imageUrl: sportrent,
+  },
+  {
+    title: "Library Management System",
+    description:
+      "A library management system built with Angular, MaterialUI, and .NET 8, hosted on Google App Engine with Google Cloud SQL Server. Utilizing DBContext and Migration for database management, it offers seamless library operations and user-friendly interface.",
+    demoLink: "https://angular-app-orcin.vercel.app/login",
+    githubCode: "https://github.com/MinhNguyen5199/AngularApp",
+      tags: ["Angular", "MaterialUI", ".NET 8", "Google Cloud SQl server", "Google App Engine", "DBContext", "Migration"],
+    imageUrl: lms,
   },
 ] as const;
 
