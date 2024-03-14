@@ -32,7 +32,7 @@ export default function AboutMe() {
     <motion.div
         ref={ref}
       >
-    <div id="about" className="bg-[#22252c] max-h-full pt-[10%] relative">
+    <div id="about" className="bg-[#22252c] max-h-full pt-[25%] sm:pt-[10%] relative">
       
         <div className="lg:mt-[-50px]">
           <Image
