@@ -27,6 +27,7 @@ export default function Socital() {
             animation={github}
             size={80}
             wrapperStyle={{ margin: 3 }}
+            strokeColor={'#FFFFFF'}
           />
         </div>
       </a>

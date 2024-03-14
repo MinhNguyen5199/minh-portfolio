@@ -29,13 +29,15 @@ export default function AboutMe() {
   const { ref, controls } = useSectionInView("About", 0.1);
 
   return (
-    <motion.div
-        ref={ref}
-      >
-    <div id="about" className="bg-[#22252c] max-h-full pt-[25%] sm:pt-[10%] relative">
+    <div
       
+      id="about"
+      className="bg-[#22252c] max-h-full pt-[25%] sm:pt-[10%] relative"
+    >
+      <div className="lg:grid lg:gap-4 lg:grid-cols-2 lg:ml-[8%]">
         <div className="lg:mt-[-50px]">
           <Image
+          
             src={avatar}
             width={400}
             height={100}
@@ -54,11 +56,17 @@ export default function AboutMe() {
         </div>
         <div>
           <div className="max-lg:text-center">
-            <h1 className="pb-[1rem] text-6xl font-bold bg-gradient-to-r  from-[#00f298] to-[#07f7f7] bg-clip-text text-transparent ">
+            <h1 ref={ref} className="pb-[1rem] text-6xl font-bold bg-gradient-to-r  from-[#00f298] to-[#07f7f7] bg-clip-text text-transparent ">
               ABOUT ME
             </h1>
             <p className="pb-[1rem] text-white text-[16px] font-[400px] lg:mr-[140px] leading-7 font-mono">
-            Hi there! I&apos;m Minh Nguyen, an aspiring web developer with a passion for creating dynamic web projects. I bring enthusiasm and dedication to all stages of the development cycle. Proficient in essential technologies like HTML5, CSS3, JavaScript, TypeScript, MERN, Angular, Java, .Net 8, GraphQL, Docker, kubernetes,  etc..., and eager to learn and grow. I&apos;m excited about gaining experience and building a strong foundation in web development.
+              Hi there! I&apos;m Minh Nguyen, an aspiring web developer with a
+              passion for creating dynamic web projects. I bring enthusiasm and
+              dedication to all stages of the development cycle. Proficient in
+              essential technologies like HTML5, CSS3, JavaScript, TypeScript,
+              MERN, Angular, Java, .Net 8, GraphQL, Docker, kubernetes, etc...,
+              and eager to learn and grow. I&apos;m excited about gaining
+              experience and building a strong foundation in web development.
             </p>
             {info.map((item) => (
               <p
@@ -71,11 +79,11 @@ export default function AboutMe() {
                 {item[1]}
               </p>
             ))}
-            <Socital/>
           </div>
         </div>
-      
+      </div>
+
+      <Socital />
     </div>
-    </motion.div>
   );
 }
