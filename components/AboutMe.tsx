@@ -5,6 +5,7 @@ import avatar from "../public/avatar.jpeg";
 import { info } from "../lib/data";
 import { motion, useAnimation, useScroll, useTransform } from "framer-motion";
 import { HiDownload } from "react-icons/hi";
+import Socital from "./Socital";
 import { useInView } from "react-intersection-observer";
 import { useActiveSection } from "../context/ActiveSection";
 import { useSectionInView } from "../lib/hook";
@@ -25,17 +26,17 @@ const motionLoading = {
 };
 
 export default function AboutMe() {
-  const { ref, controls } = useSectionInView("About", 0.5);
+  const { ref, controls } = useSectionInView("About", 0.1);
 
   return (
-    <div id="about" className="bg-[#22252c] max-h-full pt-[10%] relative">
-      <motion.div
+    <motion.div
         ref={ref}
-        className="lg:grid lg:gap-4 lg:grid-cols-2 lg:ml-[8%] pb-[7%]"
         initial="hidden"
         animate={controls}
         variants={motionLoading}
       >
+    <div id="about" className="bg-[#22252c] max-h-full pt-[10%] relative">
+      
         <div className="lg:mt-[-50px]">
           <Image
             src={avatar}
@@ -73,9 +74,11 @@ export default function AboutMe() {
                 {item[1]}
               </p>
             ))}
+            <Socital/>
           </div>
         </div>
-      </motion.div>
+      
     </div>
+    </motion.div>
   );
 }

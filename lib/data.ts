@@ -40,25 +40,21 @@ export const info =[
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
-  },
-  {
     name: "About",
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
+  {
+    name: "Projects",
+    hash: "#projects",
+  },
   {
     name: "Contact",
     hash: "#contact",
@@ -67,41 +63,24 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated SAIT",
-    location: "Calgary, Alberta",
+    title: "Web Development Intern",
+    location: "Egeez | Toronto, Ontario",
     description:
-      "After college, I focus on personal and professional development, enhancing my coding skills through self-directed learning and creating some of my personal projects.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
-  {
-    title: "Full-stack Developer",
-    location: "Self project",
-    description:
-      "Personal ecommerce website. I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and any database. I'm open to full-time opportunities.",
+      "I used these tech MongoDB, ExpressJS, React, NodeJS, TypeScript, Google Cloud",
     icon: React.createElement(CgWorkAlt),
-    date: "2023",
+    date: "08/2023 - 12/2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Blog website",
+    title: "Freelance Web Developer",
+    location: "Sports Rent | Calgary, Alberta",
     description:
-      "Currently freelancing and open to exciting full-time opportunities. Explore my coding journey and tech insights here!",
-    icon: React.createElement(FaReact),
-    date: "2023",
+      "I used these tech React, Java Spring Boot, MySQL, Hibernate, Maven, CMS platforms (WordPress)",
+    icon: React.createElement(CgWorkAlt),
+    date: "05/2023 - 06/2023",
   },
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Personal Portfolio Website",
-    description:
-    "I have crafted a simple yet visually appealing website that highlights my background, skills, and projects. This hands-on experience represents the foundational steps in my coding journey, enabling me to demonstrate my capabilities and share the progression of my skills and accomplishments.",
-    demoLink: "https://minhnguyen-portfolio.vercel.app/",
-    githubCode: "https://github.com/MinhNguyen5199/minhnguyen-portfolio",
-    tags: ["React", "Next.js", "Framer Motion", "Tailwind", "TypeScript", "Email"],
-    imageUrl: portfolio,
-  },
   {
     title: "E-commerce with Next.js",
     description:
@@ -121,24 +100,6 @@ export const projectsData = [
     imageUrl: hotel,
   },
   {
-    title: "Blog website",
-    description:
-      "Discover my coding journey in this concise blog—a showcase of achievements, methodologies, and digital explorations. Each post offers a snapshot of evolving proficiency and a commitment to continuous learning in the dynamic digital landscape.",
-    demoLink: "https://minh-blog.vercel.app/",
-    githubCode: "https://github.com/MinhNguyen5199/minh-blog",
-      tags: ["React", "Next.js", "TypeScript"],
-    imageUrl: wordanalyticsImg,
-  },
-  {
-    title: "E-commerce with Java",
-    description:
-      "A React and Java Spring Boot e-commerce platform simplifies rental reservations for users and enhances management for admins. It offers secure registration, detailed listings, and efficient inventory management, ensuring a seamless experience for both customers and employees.",
-    demoLink: "https://sports-rent.vercel.app/",
-    githubCode: "https://github.com/MinhNguyen5199/sportrent-fe",
-      tags: ["React", "Spring Boot", "JPA", "Hibernate", "MySQL", "Spring Security", "Maven", "Heroku", "Docker"],
-    imageUrl: sportrent,
-  },
-  {
     title: "Library Management System",
     description:
       "A library management system built with Angular, MaterialUI, and .NET 8, hosted on Google App Engine with Google Cloud SQL Server. Utilizing DBContext and Migration for database management, it offers seamless library operations and user-friendly interface.",
@@ -146,6 +107,15 @@ export const projectsData = [
     githubCode: "https://github.com/MinhNguyen5199/AngularApp",
       tags: ["Angular", "MaterialUI", ".NET 8", "Google Cloud SQl server", "Google App Engine", "DBContext", "Migration"],
     imageUrl: lms,
+  },
+  {
+    title: "Blog website",
+    description:
+      "Discover my coding journey in this concise blog—a showcase of achievements, methodologies, and digital explorations. Each post offers a snapshot of evolving proficiency and a commitment to continuous learning in the dynamic digital landscape.",
+    demoLink: "https://minh-blog.vercel.app/",
+    githubCode: "https://github.com/MinhNguyen5199/minh-blog",
+      tags: ["React", "Next.js", "TypeScript"],
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
