@@ -31,9 +31,6 @@ export default function AboutMe() {
   return (
     <motion.div
         ref={ref}
-        initial="hidden"
-        animate={controls}
-        variants={motionLoading}
       >
     <div id="about" className="bg-[#22252c] max-h-full pt-[10%] relative">
       
