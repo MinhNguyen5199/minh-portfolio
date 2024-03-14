@@ -15,7 +15,7 @@ type ActiveSectionContextType = {
 export const ActiveSectionContext = createContext<ActiveSectionContextType | null>(null);
 
 export default function ActiveSection({ children }: { children: React.ReactNode }) {
-  const [activeSection, setActiveSection] = useState<SectionName>("Home");
+  const [activeSection, setActiveSection] = useState<SectionName>("About");
   const [timeOfLastClick, setTimeOfLastClick] = useState(0);
 
   return (
