@@ -63,12 +63,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Development Intern",
-    location: "Egeez | Toronto, Ontario",
+    title: "Web Developer",
+    location: "Crunchbase | Burnaby, British Columbia",
     description:
-      "I used these tech MongoDB, ExpressJS, React, NodeJS, TypeScript, Google Cloud",
+    "I used these tech Python, Django, Docker, Kubernetes, Redis PostgreSQL, GraphQL, Google Cloud",
     icon: React.createElement(CgWorkAlt),
-    date: "08/2023 - 12/2023",
+    date: "01/2023 - 4/2023",
   },
   {
     title: "Freelance Web Developer",
@@ -78,6 +78,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "05/2023 - 06/2023",
   },
+  {
+    title: "Web Development Intern",
+    location: "Egeez | Toronto, Ontario",
+    description:
+      "I used these tech MongoDB, ExpressJS, React, NodeJS, TypeScript, Google Cloud",
+    icon: React.createElement(CgWorkAlt),
+    date: "08/2023 - 12/2023",
+  }
 ] as const;
 
 export const projectsData = [
@@ -107,15 +115,6 @@ export const projectsData = [
     githubCode: "https://github.com/MinhNguyen5199/AngularApp",
       tags: ["Angular", "MaterialUI", ".NET 8", "Google Cloud SQl server", "Google App Engine", "DBContext", "Migration"],
     imageUrl: lms,
-  },
-  {
-    title: "Blog website",
-    description:
-      "Discover my coding journey in this concise blog—a showcase of achievements, methodologies, and digital explorations. Each post offers a snapshot of evolving proficiency and a commitment to continuous learning in the dynamic digital landscape.",
-    demoLink: "https://minh-blog.vercel.app/",
-    githubCode: "https://github.com/MinhNguyen5199/minh-blog",
-      tags: ["React", "Next.js", "TypeScript"],
-    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
