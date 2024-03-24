@@ -11,7 +11,7 @@ export default function Socital() {
     
     <div className="flex justify-center">
       <a href='https://www.linkedin.com/in/minh-nguyen-237a55237/'>
-      <div className="hover:scale-150 active:scale-125 transition mx-5">
+      <div className="hover:scale-150 active:scale-125 transition sm:mx-5">
           <UseAnimations
             animation={linkedin}
             size={80}
@@ -22,7 +22,7 @@ export default function Socital() {
         </div>
       </a>
       <a href={'https://github.com/MinhNguyen5199'}>
-        <div className="hover:scale-150 active:scale-125 transition mx-5">
+        <div className="hover:scale-150 active:scale-125 transition sm:mx-5">
           <UseAnimations
             animation={github}
             size={80}
@@ -32,7 +32,7 @@ export default function Socital() {
         </div>
       </a>
       <a href={'mailto:hoangminhabc11@gmail.com'}>
-        <div className="hover:scale-150 active:scale-125 transition mx-5 -mt-2">
+        <div className="hover:scale-150 active:scale-125 transition sm:mx-5 -mt-2">
           <UseAnimations
             animation={archive}
             size={80}
