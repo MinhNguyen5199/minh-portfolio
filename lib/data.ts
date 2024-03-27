@@ -33,7 +33,7 @@ export const info =[
     2: "PHONE: ",
   },
   {
-    1: "hoangminhabc11@gmail.com",
+    1: "minhincanada@gmail.com",
     2: "EMAIL: ",
   },
 ] as const;

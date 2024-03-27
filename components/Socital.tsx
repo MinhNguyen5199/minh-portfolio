@@ -31,7 +31,7 @@ export default function Socital() {
           />
         </div>
       </a>
-      <a href={'mailto:hoangminhabc11@gmail.com'}>
+      <a href={'mailto:minhincanada@gmail.com'}>
         <div className="hover:scale-150 active:scale-125 transition sm:mx-5 -mt-2">
           <UseAnimations
             animation={archive}
