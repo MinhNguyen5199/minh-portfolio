@@ -66,7 +66,7 @@ export const experiencesData = [
     title: "Web Developer",
     location: "Crunchbase | Burnaby, British Columbia",
     description:
-    "I used these tech Python, Django, Docker, Kubernetes, Redis PostgreSQL, GraphQL, Google Cloud",
+    "• Analyzing requirements and translating them into technical specifications, followed by developing a web application.• Implementing and configuring CORS middleware on the server side to allow controlled access from trusted origin.• Implementing and ensuring the feasibility of UI/UX designs using React and Tailwind.• Consolidating data sources and databases into the system.• Improving security and optimizing speed for an application.I used these tech Python, Django, Docker, Kubernetes, Redis PostgreSQL, GraphQL, Google Cloud",
     icon: React.createElement(CgWorkAlt),
     date: "01/2023 - 4/2023",
   },
@@ -74,7 +74,7 @@ export const experiencesData = [
     title: "Freelance Web Developer",
     location: "Sports Rent | Calgary, Alberta",
     description:
-      "I used these tech React, Java Spring Boot, MySQL, Hibernate, Maven, CMS platforms (WordPress)",
+      "• Conducting detailed discussions with the local store owner to align project goals and create wireframes, mock-ups, and establish optimal site structure, layout, and user flow.• Developing responsive and visually appealing pages. Ensuring consistency in branding and aesthetics.• Optimizing search engines (SEO) to enhance online visibility and accessibility.• Rigorous testing of the website across different devices and browsers.• Providing ongoing support to the local store owners.I used these tech React, Java Spring Boot, MySQL, Hibernate, Maven, CMS platforms (WordPress)",
     icon: React.createElement(CgWorkAlt),
     date: "05/2023 - 06/2023",
   },
@@ -82,7 +82,7 @@ export const experiencesData = [
     title: "Web Development Intern",
     location: "Egeez | Toronto, Ontario",
     description:
-      "I used these tech MongoDB, ExpressJS, React, NodeJS, TypeScript, Google Cloud",
+      "• Maintenance and development of the backend of an application based on Django Rest Framework.• Writing unit tests for new functionalities.• Delivering readable and transparent code.• Building dashboards based on SQL queries and processing the results.I used these tech MongoDB, ExpressJS, React, NodeJS, TypeScript, Google Cloud",
     icon: React.createElement(CgWorkAlt),
     date: "08/2023 - 12/2023",
   }

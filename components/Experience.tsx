@@ -55,7 +55,7 @@ function ExperienceItem({ item, index }: { item: Item, index: number }) {
         <div className='py-5'>
         <h1 className=" bg-gradient-to-r text-purple-800 shadow-black font-bold text-3xl capitalize">{item.title}</h1>
         <h4 className="font-semibold py-2 text-xl capitalize">{item.location}</h4>
-        <p className="!mt-1 !font-normal text-white text-lg font-mono ">{item.description}</p>
+        <p className="!mt-1 !font-normal text-white text-lg font-mono " dangerouslySetInnerHTML={{ __html: item.description.replace(/\./g, ".<br />") }}></p>
         </div>
       </VerticalTimelineElement>
     </motion.div>
