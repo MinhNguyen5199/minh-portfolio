@@ -63,28 +63,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer",
-    location: "Crunchbase | Burnaby, British Columbia",
+    title: "Full Stack Developer - Remote Internship",
+    location: "Egeez | Toronto, Ontario",
     description:
-    "• Analyzing requirements and translating them into technical specifications, followed by developing a web application.• Implementing and configuring CORS middleware on the server side to allow controlled access from trusted origin.• Implementing and ensuring the feasibility of UI/UX designs using React and Tailwind.• Consolidating data sources and databases into the system.• Improving security and optimizing speed for an application.I used these tech Python, Django, Docker, Kubernetes, Redis PostgreSQL, GraphQL, Google Cloud",
+      "• Analyzed requirements and translated them into technical specifications, resulting in the successful development of an application. • Integrated client-side data visualization libraries to present complex data interactively and intuitively, leading to a 25% increase in user engagement with data-driven content. • Reduced the website's loading time by 50% by optimizing image assets and implementing lazy loading techniques, leading to improved user experience and a 15% decrease in bounce rate. • Participated in customer feedback sessions, implementing key UI/UX improvements with React and Tailwind that resulted in a 20% increase in user engagement.Tech used: MongoDB, ExpressJS, React, NodeJS, TypeScript, Google Cloud, WordPress",
     icon: React.createElement(CgWorkAlt),
-    date: "01/2023 - 4/2023",
+    date: "08/2023 - 12/2023",
   },
   {
     title: "Freelance Web Developer",
     location: "Sports Rent | Calgary, Alberta",
     description:
-      "• Conducting detailed discussions with the local store owner to align project goals and create wireframes, mock-ups, and establish optimal site structure, layout, and user flow.• Developing responsive and visually appealing pages. Ensuring consistency in branding and aesthetics.• Optimizing search engines (SEO) to enhance online visibility and accessibility.• Rigorous testing of the website across different devices and browsers.• Providing ongoing support to the local store owners.I used these tech React, Java Spring Boot, MySQL, Hibernate, Maven, CMS platforms (WordPress)",
+      "• Conducted detailed discussions with the local store owner to align project goals and create wireframes, mock-ups, and establish an optimal site structure, layout, and user flow. • Implemented SEO best practices to enhance online visibility and accessibility, leading to a 15% increase in organic traffic and improving search engine ranking positions.• Integrated Google Analytics to track user behavior, leading to data-driven design improvements that increased user retention by 25%.• Developed responsive and visually appealing pages, resulting in a 20% increase in user engagement.Tech used: React, Java Spring Boot, MySQL, Hibernate, Maven, WordPress, Heroku",
     icon: React.createElement(CgWorkAlt),
     date: "05/2023 - 06/2023",
   },
   {
-    title: "Web Development Intern",
-    location: "Egeez | Toronto, Ontario",
+    title: "Back End Developer - Remote Contract Part-time",
+    location: "Crunchbase | Burnaby, British Columbia",
     description:
-      "• Maintenance and development of the backend of an application based on Django Rest Framework.• Writing unit tests for new functionalities.• Delivering readable and transparent code.• Building dashboards based on SQL queries and processing the results.I used these tech MongoDB, ExpressJS, React, NodeJS, TypeScript, Google Cloud",
+    "• Developed modular, reusable Django components libraries, leading to a significant 30% decrease in development time across various projects. • Wrote over 100 robust unit tests for new functionalities, ensuring code quality, early defect detection, and efficient collaboration within the development team. • Developed a RESTful API that facilitated integration with 15 third-party services, resulting in expanded business partnerships and an impressive 20% increase in revenue streams. • Optimized SQL queries to reduce data retrieval time by 30%, resulting in improved user experience and reduced CPU time.Tech used: Python, Django, Docker, Kubernetes, Redis, PostgreSQL, GraphQL, Google Cloud",
+    skills: "Python, Django, Docker, Kubernetes, Redis, PostgreSQL, GraphQL, Google Cloud",
     icon: React.createElement(CgWorkAlt),
-    date: "08/2023 - 12/2023",
+    date: "01/2023 - 4/2023",
   }
 ] as const;
 

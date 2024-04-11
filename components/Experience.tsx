@@ -11,7 +11,7 @@ interface Item {
   readonly title: string;
   readonly location: string;
   readonly description: string;
-  readonly icon: React.CElement<any, any>;
+  readonly icon: React.ReactNode;
   readonly date: string;
 }
 
